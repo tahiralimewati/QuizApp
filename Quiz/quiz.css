@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.app{
+  background-color: rgb(211, 110, 127);
+  width: 90%;
+  max-width: 600px;
+  height: 450px;
+  padding: 30px;
+  box-shadow:10px 10px 5px 0px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+.app h1{
+  color: rgb(181, 24, 126);
+  border-bottom: 1px solid #212121;
+}
+.quiz-containar{
+ padding: 20px 0;
+}
+.quiz-containar h2{
+  color: black;
+  text-align: left;
+  padding: 10px;
+}
+
+.btn{
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  color: #222;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+  background: #222;
+  color: #fff;
+ 
+}
+.next-pre{
+  display: flex;
+  justify-content: space-evenly;
+}
+#pre-btn{
+ background: blue;
+ color: white;
+ width: 130px;
+ padding: 10px;
+ border-radius: 20px;
+ border: none;
+ box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+ cursor: pointer;
+ display: none;
+}
+#next-btn{
+ background: blue;
+ color: white;
+ width: 130px;
+ padding: 10px;
+ border-radius: 20px;
+ border: none;
+ box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+ cursor: pointer;
+ display: none;
+}
+.currect{
+  background: rgb(107, 203, 107);
+  
+}
+.incurrect{
+  background: rgb(229, 35, 35);
+
+}
